@@ -5482,6 +5482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_vase_c
       objectReference: {fileID: 0}
+    - target: {fileID: 5219591974022984160, guid: 2f119c2924c1d234b9d2c6da1035f365, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d48b94908ceaa2048801305b6d3fc9ca, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7286,6 +7290,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1364950947}
     m_Modifications:
+    - target: {fileID: 2416048464523019807, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 04637bcb3e5632949af0f7a32e6f39bc, type: 2}
     - target: {fileID: 2869385373389723853, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
       propertyPath: m_Name
       value: carved_wooden_plate_1
@@ -9845,6 +9853,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1949632295}
     m_Modifications:
+    - target: {fileID: 127783062149336668, guid: de33eb1083ec78640a93b6795b274725, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be9d11f423fe0a849873a63c4d026660, type: 2}
+    - target: {fileID: 127783062149336668, guid: de33eb1083ec78640a93b6795b274725, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be9d11f423fe0a849873a63c4d026660, type: 2}
     - target: {fileID: 3559506473561738884, guid: de33eb1083ec78640a93b6795b274725, type: 3}
       propertyPath: m_Name
       value: brass_candleholder_a
@@ -12674,6 +12690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1364950947}
     m_Modifications:
+    - target: {fileID: 2416048464523019807, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 04637bcb3e5632949af0f7a32e6f39bc, type: 2}
     - target: {fileID: 2869385373389723853, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
       propertyPath: m_Name
       value: carved_wooden_plate_3
@@ -18119,6 +18139,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6462214316496920989, guid: d9c5dd1112279ec4da04e0d6cacfcf0e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b1d33511e2612f4f86e744455fc275d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27987,6 +28011,10 @@ PrefabInstance:
       propertyPath: lanternLight
       value: 
       objectReference: {fileID: 749717938}
+    - target: {fileID: 5979801545368988818, guid: f0e08962d1d4a93449062c253e131291, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a7ee9e4bff383fb4a92bcae6430062d1, type: 2}
     - target: {fileID: 6016922231046426157, guid: f0e08962d1d4a93449062c253e131291, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.34000015
@@ -36757,6 +36785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_vase_b
       objectReference: {fileID: 0}
+    - target: {fileID: 7595661071940722630, guid: b7e62fe09c85337439e8b0dc8302f6ef, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d48b94908ceaa2048801305b6d3fc9ca, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38374,6 +38406,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1364950947}
     m_Modifications:
+    - target: {fileID: 2416048464523019807, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 04637bcb3e5632949af0f7a32e6f39bc, type: 2}
     - target: {fileID: 2869385373389723853, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
       propertyPath: m_Name
       value: carved_wooden_plate_2
@@ -42171,6 +42207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_goblet_c
       objectReference: {fileID: 0}
+    - target: {fileID: 7861269932650211712, guid: 797aea243231d4d4e95351b97fc69bd6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b48d07353dc8d74c83173f596a7572c, type: 2}
     - target: {fileID: 9092235852517575454, guid: 797aea243231d4d4e95351b97fc69bd6, type: 3}
       propertyPath: _light
       value: 
@@ -43481,6 +43521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_goblet_a
       objectReference: {fileID: 0}
+    - target: {fileID: 7097925373163599293, guid: fe2efc92a04dd0846883de88d9d306cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b48d07353dc8d74c83173f596a7572c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44534,6 +44578,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4109778296560700649, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f17d8dc2f9c10514da267e945f60edde, type: 2}
     - target: {fileID: 6107093701899946152, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
       propertyPath: m_Name
       value: brass_goblet_b_1
@@ -46554,6 +46602,10 @@ PrefabInstance:
       propertyPath: lanternLight
       value: 
       objectReference: {fileID: 749717938}
+    - target: {fileID: 9180559436572243495, guid: 3189ec2999b977f4c8bf6ebe92b3137f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 99fd743c9624fb04f861615ee925de5a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47766,6 +47818,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1364950947}
     m_Modifications:
+    - target: {fileID: 2416048464523019807, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 04637bcb3e5632949af0f7a32e6f39bc, type: 2}
     - target: {fileID: 2869385373389723853, guid: 1ed712e578bb735499bbd4828dfd8030, type: 3}
       propertyPath: m_Name
       value: carved_wooden_plate
@@ -47836,6 +47892,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1364950947}
     m_Modifications:
+    - target: {fileID: 372017613036416690, guid: a261860fd660e1e45a0353201e4b6576, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 77e68a4ead4f4f84b9a2ac5a2b81c4b7, type: 2}
     - target: {fileID: 1359687183255024709, guid: a261860fd660e1e45a0353201e4b6576, type: 3}
       propertyPath: m_Name
       value: brass_vase_a
@@ -57975,6 +58035,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1949632295}
     m_Modifications:
+    - target: {fileID: 127783062149336668, guid: de33eb1083ec78640a93b6795b274725, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be9d11f423fe0a849873a63c4d026660, type: 2}
+    - target: {fileID: 127783062149336668, guid: de33eb1083ec78640a93b6795b274725, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be9d11f423fe0a849873a63c4d026660, type: 2}
     - target: {fileID: 3559506473561738884, guid: de33eb1083ec78640a93b6795b274725, type: 3}
       propertyPath: m_Name
       value: brass_candleholder_a_1
@@ -63542,6 +63610,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2115616878}
     m_Modifications:
+    - target: {fileID: 1809403038840190668, guid: 2001c8fb97448ec4dbbccb667f7d623d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0df6f343a8bf2ab4e9106bfc69417b00, type: 2}
     - target: {fileID: 4303245460399500687, guid: 2001c8fb97448ec4dbbccb667f7d623d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.0412612
@@ -64782,6 +64854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_goblet_c_1
       objectReference: {fileID: 0}
+    - target: {fileID: 7861269932650211712, guid: 797aea243231d4d4e95351b97fc69bd6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b48d07353dc8d74c83173f596a7572c, type: 2}
     - target: {fileID: 9092235852517575454, guid: 797aea243231d4d4e95351b97fc69bd6, type: 3}
       propertyPath: _light
       value: 
@@ -67501,6 +67577,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4109778296560700649, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f17d8dc2f9c10514da267e945f60edde, type: 2}
     - target: {fileID: 6107093701899946152, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
       propertyPath: m_Name
       value: brass_goblet_b
