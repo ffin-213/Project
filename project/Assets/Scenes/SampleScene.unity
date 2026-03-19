@@ -16138,6 +16138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_goblet_c_2
       objectReference: {fileID: 0}
+    - target: {fileID: 7861269932650211712, guid: 797aea243231d4d4e95351b97fc69bd6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b48d07353dc8d74c83173f596a7572c, type: 2}
     - target: {fileID: 9092235852517575454, guid: 797aea243231d4d4e95351b97fc69bd6, type: 3}
       propertyPath: _light
       value: 
@@ -17704,6 +17708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carved_Wooden_Elephant_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2133629089354477800, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85965ed49f063e845a052f035f42b192, type: 2}
     - target: {fileID: 3135595038874673598, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -19754,10 +19762,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 287424244}
     m_Modifications:
+    - target: {fileID: 168062617878432704, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 994d1ea136581824a86f97d98f4bb247, type: 2}
     - target: {fileID: 655066593937023675, guid: d2de0e13186194447a192754498860bc, type: 3}
       propertyPath: m_Name
       value: potted_plant_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2900098531507805800, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fbfc9630714eb6f47a83dae3c3e8d7c0, type: 2}
+    - target: {fileID: 4271976012933761017, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 34109a1d170d71d459da5f5d658788df, type: 2}
     - target: {fileID: 4879865608675267488, guid: d2de0e13186194447a192754498860bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.42
@@ -19798,6 +19818,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8750299156007921323, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 994d1ea136581824a86f97d98f4bb247, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20104,6 +20128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cardboard_box_3
       objectReference: {fileID: 0}
+    - target: {fileID: 2558963411961092178, guid: f8043d99e9f196d4cacc1efc134221b4, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: abe34efc395214a4395953360975a112, type: 2}
     - target: {fileID: 3630950699501375945, guid: f8043d99e9f196d4cacc1efc134221b4, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.25
@@ -22867,6 +22895,10 @@ PrefabInstance:
       propertyPath: lanternLight
       value: 
       objectReference: {fileID: 749717938}
+    - target: {fileID: 5979801545368988818, guid: f0e08962d1d4a93449062c253e131291, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a7ee9e4bff383fb4a92bcae6430062d1, type: 2}
     - target: {fileID: 6016922231046426157, guid: f0e08962d1d4a93449062c253e131291, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.32699966
@@ -23648,6 +23680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_goblet_a_1
       objectReference: {fileID: 0}
+    - target: {fileID: 7097925373163599293, guid: fe2efc92a04dd0846883de88d9d306cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b48d07353dc8d74c83173f596a7572c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30462,6 +30498,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5463299516605508127, guid: 08086250818999b488577b5e0e84f010, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fde290a9fc0bfeb489a355d047922470, type: 2}
     - target: {fileID: 5579125982554289338, guid: 08086250818999b488577b5e0e84f010, type: 3}
       propertyPath: m_Name
       value: ClassicConsole_3
@@ -31250,6 +31290,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5463299516605508127, guid: 08086250818999b488577b5e0e84f010, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fde290a9fc0bfeb489a355d047922470, type: 2}
     - target: {fileID: 5579125982554289338, guid: 08086250818999b488577b5e0e84f010, type: 3}
       propertyPath: m_Name
       value: ClassicConsole_2
@@ -31842,6 +31886,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5463299516605508127, guid: 08086250818999b488577b5e0e84f010, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fde290a9fc0bfeb489a355d047922470, type: 2}
     - target: {fileID: 5579125982554289338, guid: 08086250818999b488577b5e0e84f010, type: 3}
       propertyPath: m_Name
       value: ClassicConsole_1
@@ -35288,6 +35336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carved_Wooden_Elephant_1
       objectReference: {fileID: 0}
+    - target: {fileID: 2133629089354477800, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85965ed49f063e845a052f035f42b192, type: 2}
     - target: {fileID: 3135595038874673598, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -35344,6 +35396,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5561165745902084445, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85965ed49f063e845a052f035f42b192, type: 2}
     - target: {fileID: 8623731954027858594, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
       propertyPath: lanternLight
       value: 
@@ -37056,6 +37112,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4109778296560700649, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f17d8dc2f9c10514da267e945f60edde, type: 2}
     - target: {fileID: 6107093701899946152, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
       propertyPath: m_Name
       value: brass_goblet_b_1
@@ -39971,6 +40031,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 270207022}
     m_Modifications:
+    - target: {fileID: 283697207133978766, guid: 838c6c2462e86cd40b5be6194be34c13, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b4efd9fc07e5ed54f96c80570f56337d, type: 2}
     - target: {fileID: 5238151134576441102, guid: 838c6c2462e86cd40b5be6194be34c13, type: 3}
       propertyPath: doorAudioSource
       value: 
@@ -40015,6 +40079,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6158124804828666509, guid: 838c6c2462e86cd40b5be6194be34c13, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b4efd9fc07e5ed54f96c80570f56337d, type: 2}
     - target: {fileID: 7434096182501588724, guid: 838c6c2462e86cd40b5be6194be34c13, type: 3}
       propertyPath: m_Name
       value: Double_Door_2
@@ -42407,10 +42475,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 287424244}
     m_Modifications:
+    - target: {fileID: 168062617878432704, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 994d1ea136581824a86f97d98f4bb247, type: 2}
     - target: {fileID: 655066593937023675, guid: d2de0e13186194447a192754498860bc, type: 3}
       propertyPath: m_Name
       value: potted_plant_1
       objectReference: {fileID: 0}
+    - target: {fileID: 2900098531507805800, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fbfc9630714eb6f47a83dae3c3e8d7c0, type: 2}
+    - target: {fileID: 4271976012933761017, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 34109a1d170d71d459da5f5d658788df, type: 2}
     - target: {fileID: 4879865608675267488, guid: d2de0e13186194447a192754498860bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.396
@@ -42451,6 +42531,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8750299156007921323, guid: d2de0e13186194447a192754498860bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 994d1ea136581824a86f97d98f4bb247, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43366,6 +43450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6462214316496920989, guid: d9c5dd1112279ec4da04e0d6cacfcf0e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b1d33511e2612f4f86e744455fc275d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46009,6 +46097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sofa_02_Seat_2
       objectReference: {fileID: 0}
+    - target: {fileID: 8693402504071390233, guid: cb298b81e0c13504dadd0d055c01b30e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa5e7774edaa0184bba58b113acbe3ea, type: 2}
+    - target: {fileID: 9100094952056426836, guid: cb298b81e0c13504dadd0d055c01b30e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa5e7774edaa0184bba58b113acbe3ea, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46963,6 +47059,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4690469604266149660, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85965ed49f063e845a052f035f42b192, type: 2}
     - target: {fileID: 8623731954027858594, guid: aa3fdb6368c4e774b9432ccbdd8e007f, type: 3}
       propertyPath: lanternLight
       value: 
@@ -47161,6 +47261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_goblet_a_2
       objectReference: {fileID: 0}
+    - target: {fileID: 7097925373163599293, guid: fe2efc92a04dd0846883de88d9d306cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b48d07353dc8d74c83173f596a7572c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47659,6 +47763,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sofa_02_Seat_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8693402504071390233, guid: cb298b81e0c13504dadd0d055c01b30e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa5e7774edaa0184bba58b113acbe3ea, type: 2}
+    - target: {fileID: 9100094952056426836, guid: cb298b81e0c13504dadd0d055c01b30e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa5e7774edaa0184bba58b113acbe3ea, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48945,6 +49057,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8093473236827753403, guid: 1d0a6a65525a105489470d492306a379, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 06ca60df7ba35d246b493004d3b4fded, type: 2}
     - target: {fileID: 8676702495236909879, guid: 1d0a6a65525a105489470d492306a379, type: 3}
       propertyPath: m_Name
       value: hanging_picture_frame_c
@@ -50348,6 +50464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brass_vase_b
       objectReference: {fileID: 0}
+    - target: {fileID: 7595661071940722630, guid: b7e62fe09c85337439e8b0dc8302f6ef, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d48b94908ceaa2048801305b6d3fc9ca, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57211,6 +57331,10 @@ PrefabInstance:
       propertyPath: lanternLight
       value: 
       objectReference: {fileID: 749717938}
+    - target: {fileID: 5979801545368988818, guid: f0e08962d1d4a93449062c253e131291, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a7ee9e4bff383fb4a92bcae6430062d1, type: 2}
     - target: {fileID: 6016922231046426157, guid: f0e08962d1d4a93449062c253e131291, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.29699993
@@ -68384,6 +68508,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4109778296560700649, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f17d8dc2f9c10514da267e945f60edde, type: 2}
     - target: {fileID: 6107093701899946152, guid: 48fdf90265d873a46b983ad47abbf7de, type: 3}
       propertyPath: m_Name
       value: brass_goblet_b_2
@@ -68694,6 +68822,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6462214316496920989, guid: d9c5dd1112279ec4da04e0d6cacfcf0e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b1d33511e2612f4f86e744455fc275d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
