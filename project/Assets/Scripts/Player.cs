@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
     public float speed = 0.2f;
     public float mouseSensitivity = 50f;
 
+    public Transform wayPointOnPlayer;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
