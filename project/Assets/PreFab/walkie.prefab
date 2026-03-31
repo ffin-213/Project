@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6305984621208391666}
   - component: {fileID: 3641285099718329189}
   - component: {fileID: 3688615908178697579}
+  - component: {fileID: 6705093524442331714}
+  - component: {fileID: 4260722416176388144}
   m_Layer: 0
   m_Name: walkie
   m_TagString: Untagged
@@ -111,3 +113,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6705093524442331714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4682066929459366731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b0a1e1982b3f840952b1c52f9052e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &4260722416176388144
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4682066929459366731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.16775216
+  m_Height: 0.74138796
+  m_Direction: 1
+  m_Center: {x: -0.00000008940695, y: 0.11214362, z: -0.043346547}

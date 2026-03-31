@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5670278441986004631}
   - component: {fileID: 8578352109709844441}
   - component: {fileID: 8683662173689553940}
+  - component: {fileID: 6774078194987413350}
+  - component: {fileID: 2488403553695770113}
   m_Layer: 0
   m_Name: pills
   m_TagString: Untagged
@@ -109,3 +111,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6774078194987413350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127932934145685530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b0a1e1982b3f840952b1c52f9052e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &2488403553695770113
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127932934145685530}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.07884217
+  m_Height: 0.302796
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.0143500045, z: 0}

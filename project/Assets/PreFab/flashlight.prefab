@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7164338723290011511}
   - component: {fileID: 8837682296626349270}
   - component: {fileID: 974327796396589663}
+  - component: {fileID: 7031768773500142731}
+  - component: {fileID: 7849605361007821126}
   m_Layer: 0
   m_Name: flashlight
   m_TagString: Untagged
@@ -110,3 +112,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7031768773500142731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952939476191872512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b0a1e1982b3f840952b1c52f9052e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &7849605361007821126
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952939476191872512}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.11880517
+  m_Height: 1.0101799
+  m_Direction: 1
+  m_Center: {x: -0.0011013336, y: 0.49124998, z: -0.000000004801047}

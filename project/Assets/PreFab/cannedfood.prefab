@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8611978371946900634}
   - component: {fileID: 87662204826414616}
   - component: {fileID: 8838638126099745912}
+  - component: {fileID: 5564971484516053736}
+  - component: {fileID: 3315694679663742259}
   m_Layer: 0
   m_Name: cannedfood
   m_TagString: Untagged
@@ -109,3 +111,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &5564971484516053736
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699195730776284927}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.14845984
+  m_Height: 0.4726624
+  m_Direction: 1
+  m_Center: {x: -0.0014959726, y: 0, z: 0}
+--- !u!114 &3315694679663742259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699195730776284927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b0a1e1982b3f840952b1c52f9052e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
