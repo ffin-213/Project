@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ManagerAudio : MonoBehaviour
 {
-    public Sound[] musicSounds, sfxSounds;
+    public AudioClip[] musicSounds, sfxSounds;
     public AudioSource musicSource, sfxSource;
 
 }

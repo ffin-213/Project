@@ -1,17 +1,10 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
 [System.Serializable]
 public class Sound : MonoBehaviour
 {
-    public string name;
+    public string names;
     public AudioClip clip;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
