@@ -3,12 +3,12 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     public float collectDistance;
-    private Transform player;
+    public Transform player;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        //player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -20,6 +20,7 @@ public class Collectible : MonoBehaviour
 
             if (distance <= collectDistance)
             {
+                FindFirstObjectByType<Inventory>().Add();
                 Destroy(gameObject);
             }
             else
@@ -28,18 +29,6 @@ public class Collectible : MonoBehaviour
             }
         }
     }
-
-    /*private void OnTriggerEnter(Collider other)
-    {
-        if(other != null)
-        {
-            Debug.Log("trigger collectible");
-            if (other.CompareTag("Player"))
-            {
-                Collect();
-            }
-        }
-    }*/
 
     private void OnMouseDown()
     {
