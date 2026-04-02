@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     public float speed = 0.2f;
     public float mouseSensitivity = 50f;
 
+    public float collectDistance = 3f;
+
     public Transform wayPointOnPlayer;
 
     void Start()
@@ -16,6 +18,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        // movements
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
 
         transform.Rotate(Vector3.up * mouseX);
@@ -30,6 +33,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // enter level 2
         if(other.CompareTag("L2 Trigger"))
         {
             SceneManager.LoadScene(2);
