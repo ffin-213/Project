@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -12,5 +13,10 @@ public class AudioManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public static implicit operator AudioManager(ManagerAudio v)
+    {
+        throw new NotImplementedException();
     }
 }
