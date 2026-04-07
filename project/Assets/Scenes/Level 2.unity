@@ -5055,6 +5055,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8601900614463463632, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.087
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601900614463463632, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.365
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601900614463463632, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.502
+      objectReference: {fileID: 0}
     - target: {fileID: 8605160569769651574, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_Name
       value: Asylum
@@ -6923,6 +6935,7 @@ MonoBehaviour:
   controller: {fileID: 1724689651}
   speed: 3
   mouseSensitivity: 60
+  collectDistance: 3
   wayPointOnPlayer: {fileID: 578575759}
 --- !u!136 &1724689653
 CapsuleCollider:
@@ -7339,6 +7352,67 @@ LightProbeGroup:
   - {x: -1, y: -1, z: 1}
   - {x: -1, y: -1, z: -1}
   m_Dering: 1
+--- !u!1001 &1796942742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.232
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.514
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.119
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.012036534
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9999276
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -178.621
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c453c02be54f034ab5516b3341c315a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 820e316458443f54084c57fac03ca556, type: 3}
+      propertyPath: m_Name
+      value: VoodooDoll
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 820e316458443f54084c57fac03ca556, type: 3}
 --- !u!114 &1802420126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8221,3 +8295,4 @@ SceneRoots:
   - {fileID: 479730381}
   - {fileID: 1434883740}
   - {fileID: 1724689656}
+  - {fileID: 1796942742}
