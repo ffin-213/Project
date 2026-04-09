@@ -20017,7 +20017,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 0
   quantityText: {fileID: 1287747643}
-  Bottle: {fileID: 367475323}
+  bottlePic: {fileID: 367475323}
+  batteryPic: {fileID: 0}
+  cannedFoodPic: {fileID: 0}
+  firstAidPic: {fileID: 0}
+  flashlightPic: {fileID: 0}
+  matchboxPic: {fileID: 0}
+  pillsPic: {fileID: 0}
+  tapePic: {fileID: 0}
+  walkiePic: {fileID: 0}
+  objects: []
+  index: 0
 --- !u!1001 &551032262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58023,7 +58033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1634968805
 MonoBehaviour:
   m_ObjectHideFlags: 0
