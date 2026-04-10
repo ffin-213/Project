@@ -40,6 +40,14 @@ public class Inventory : MonoBehaviour
 
     [Header("Display Texts")]
     public TextMeshProUGUI bottleQuantityText;
+    public TextMeshProUGUI batteryQuantityText;
+    public TextMeshProUGUI cannedFoodQuantityText;
+    public TextMeshProUGUI firstAidQuantityText;
+    public TextMeshProUGUI flashlightQuantityText;
+    public TextMeshProUGUI matchboxQuantityText;
+    public TextMeshProUGUI pillsQuantityText;
+    public TextMeshProUGUI tapeQuantityText;
+    public TextMeshProUGUI walkieQuantityText;
 
     [Header("Others")]
     public List<GameObject> objects = new List<GameObject>();
