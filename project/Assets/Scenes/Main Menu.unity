@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSounds:
   - {fileID: 8300000, guid: 7a93a05f603868a4fb2c06bb66df6d0d, type: 3}
-  - {fileID: 8300000, guid: aa7e18111e3fc944882e000ff4e8c587, type: 3}
+  - {fileID: 8300000, guid: fea1429f233f447bd8edbf992d82bd32, type: 3}
   sfxSounds:
   - {fileID: 8300000, guid: 6fa88048be821f3479ae000b744de2e4, type: 3}
   - {fileID: 8300000, guid: 66834f5ac275d94489ab04b49aa3ddec, type: 3}
