@@ -7165,10 +7165,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1724689651}
-  speed: 5
+  speed: 3
   mouseSensitivity: 60
-  collectDistance: 3
-  wayPointOnPlayer: {fileID: 578575759}
+  gravity: -9.81
+  groundedYVelocity: -2
 --- !u!136 &1724689653
 CapsuleCollider:
   m_ObjectHideFlags: 0
