@@ -4,12 +4,14 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public CharacterController controller;
-    public float speed = 0.2f;
-    public float mouseSensitivity = 50f;
 
-    public float collectDistance = 3f;
+    public float speed = 5f;
+    public float mouseSensitivity = 100f;
 
-    public Transform wayPointOnPlayer;
+    public float gravity = -9.81f;
+    public float groundedYVelocity = -2f;
+
+    private float yVelocity;
 
     void Start()
     {
@@ -18,9 +20,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        // movements
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-
         transform.Rotate(Vector3.up * mouseX);
 
         float x = Input.GetAxis("Horizontal");
@@ -28,13 +28,22 @@ public class Player : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+        if (controller.isGrounded && yVelocity < 0)
+        {
+            yVelocity = groundedYVelocity;
+        }
+
+        yVelocity += gravity * Time.deltaTime;
+
+        Vector3 velocity = move * speed;
+        velocity.y = yVelocity;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        // enter level 2
-        if(other.CompareTag("L2 Trigger"))
+        if (other.CompareTag("L2 Trigger"))
         {
             SceneManager.LoadScene(2);
         }

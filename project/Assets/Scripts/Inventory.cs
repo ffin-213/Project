@@ -1,126 +1,99 @@
 using UnityEngine;
 using TMPro;
-using NUnit.Framework;
 using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
 {
-    [Header("Object Counts")]
-    public int bottleCount = 0;
-    public int batteryCount = 0;
-    public int cannnedFoodCount = 0;
-    public int firstAidCount = 0;
-    public int flashlightCount = 0;
-    public int matchboxCount = 0;
-    public int pillsCount = 0;
-    public int tapeCount = 0;
-    public int walkieCount = 0;
+    [Header("Item Counts")]
+    public List<int> counts = new List<int>();
 
     [Header("Prefabs")]
-    public GameObject bottlePref;
-    public GameObject batteryPref;
-    public GameObject cannnedFoodPref;
-    public GameObject firstAidPref;
-    public GameObject flashlightPref;
-    public GameObject matchboxPref;
-    public GameObject pillsPref;
-    public GameObject tapePref;
-    public GameObject walkiePref;
+    public List<GameObject> prefabs = new List<GameObject>();
 
-    [Header("Display Pics")]
-    public GameObject bottlePic;
-    public GameObject batteryPic;
-    public GameObject cannedFoodPic;
-    public GameObject firstAidPic;
-    public GameObject flashlightPic;
-    public GameObject matchboxPic;
-    public GameObject pillsPic;
-    public GameObject tapePic;
-    public GameObject walkiePic;
+    [Header("UI Images")]
+    public List<GameObject> pics = new List<GameObject>();
 
-    [Header("Display Texts")]
-    public TextMeshProUGUI bottleQuantityText;
+    [Header("UI Text")]
+    public List<TextMeshProUGUI> texts = new List<TextMeshProUGUI>();
 
-    [Header("Others")]
-    public List<GameObject> objects = new List<GameObject>();
+    [Header("Settings")]
     public int index = 0;
-    private bool selected;
+    public float dropForce = 2f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        bottlePic.SetActive(false);
-        selected = false;
-        SetUp();
+        for (int i = 0; i < pics.Count; i++)
+        {
+            pics[i].SetActive(false);
+            texts[i].text = "0";
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         SelectIndex();
 
         if (Input.GetMouseButtonDown(1))
         {
-            Debug.Log("try drop");
             Drop();
         }
     }
 
-    public void Add()
+    public void Add(int itemIndex)
     {
-        bottleCount++;
-        bottlePic.SetActive(true);
-        bottleQuantityText.text = bottleCount.ToString();
+        if (itemIndex < 0 || itemIndex >= counts.Count) return;
+
+        counts[itemIndex]++;
+
+        pics[itemIndex].SetActive(true);
+        texts[itemIndex].text = counts[itemIndex].ToString();
     }
 
-    private void SelectIndex()
+    void SelectIndex()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) {index = 0;}
-        if (Input.GetKeyDown(KeyCode.Alpha2)) {index = 1;}
-        if (Input.GetKeyDown(KeyCode.Alpha3)) {index = 2;}
-        if (Input.GetKeyDown(KeyCode.Alpha4)) {index = 3;}
-        if (Input.GetKeyDown(KeyCode.Alpha5)) {index = 4;}
-        if (Input.GetKeyDown(KeyCode.Alpha6)) {index = 5;}
-        if (Input.GetKeyDown(KeyCode.Alpha7)) {index = 6;}
-        if (Input.GetKeyDown(KeyCode.Alpha8)) {index = 7;}
-        if (Input.GetKeyDown(KeyCode.Alpha9)) {index = 8;}
+        if (Input.GetKeyDown(KeyCode.Alpha1)) index = 0;
+        if (Input.GetKeyDown(KeyCode.Alpha2)) index = 1;
+        if (Input.GetKeyDown(KeyCode.Alpha3)) index = 2;
+        if (Input.GetKeyDown(KeyCode.Alpha4)) index = 3;
+        if (Input.GetKeyDown(KeyCode.Alpha5)) index = 4;
+        if (Input.GetKeyDown(KeyCode.Alpha6)) index = 5;
+        if (Input.GetKeyDown(KeyCode.Alpha7)) index = 6;
+        if (Input.GetKeyDown(KeyCode.Alpha8)) index = 7;
+        if (Input.GetKeyDown(KeyCode.Alpha9)) index = 8;
 
-        Selected();
-    }
-
-    private void Selected()
-    {
-        for(int i = 0; i < objects.Count; i++)
-        {
-            if(i == index)
-            {
-                Debug.Log("selected " + i + " = " + index);
-                //objects[i].color = Color.red;
-                selected = true;
-            }
-            else
-            {
-                Debug.Log("nothing selected");
-                selected = false;
-            }
-        }
+        Debug.Log("selected: " + index);
     }
 
     void Drop()
     {
-        Debug.Log("dropped");
-    }
+        if (index < 0 || index >= counts.Count) return;
 
-    void SetUp()
-    {
-        objects.Add(bottlePic);
-        objects.Add(batteryPic);
-        objects.Add(cannedFoodPic);
-        objects.Add(firstAidPic);
-        objects.Add(flashlightPic);
-        objects.Add(matchboxPic);
-        objects.Add(pillsPic);
-        objects.Add(tapePic);
-        objects.Add(walkiePic);
+        if (counts[index] <= 0)
+        {
+            Debug.Log("no item to drop");
+            return;
+        }
+
+        GameObject obj = Instantiate(
+            prefabs[index],
+            transform.position + transform.forward,
+            Quaternion.identity
+        );
+
+        Rigidbody rb = obj.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.AddForce(transform.forward * dropForce, ForceMode.Impulse);
+        }
+
+        counts[index]--;
+        texts[index].text = counts[index].ToString();
+
+        if (counts[index] == 0)
+        {
+            pics[index].SetActive(false);
+        }
+
+        Debug.Log("dropped item at index: " + index);
     }
 }

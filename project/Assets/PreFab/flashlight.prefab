@@ -124,6 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b0a1e1982b3f840952b1c52f9052e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectDistance: 3
+  player: {fileID: 0}
+  itemIndex: 4
 --- !u!136 &7849605361007821126
 CapsuleCollider:
   m_ObjectHideFlags: 0

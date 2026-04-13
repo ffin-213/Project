@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectDistance: 0
   player: {fileID: 0}
+  itemIndex: 2
