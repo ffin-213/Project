@@ -783,8 +783,8 @@ MonoBehaviour:
   controller: {fileID: 17022936}
   speed: 3
   mouseSensitivity: 60
-  collectDistance: 3
-  wayPointOnPlayer: {fileID: 73194635}
+  gravity: -9.81
+  groundedYVelocity: -2
 --- !u!136 &17022938
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20695,44 +20695,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d9e130040c967e4d8e2da0823644080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottleCount: 0
-  batteryCount: 0
-  cannnedFoodCount: 0
-  firstAidCount: 0
-  flashlightCount: 0
-  matchboxCount: 0
-  pillsCount: 0
-  tapeCount: 0
-  walkieCount: 0
-  bottlePref: {fileID: 7488818622890738998, guid: 236fb813d115617488f70e63e07951eb, type: 3}
-  batteryPref: {fileID: 8900423665968717899, guid: c3986f1be816bc94791e1958d51cc4f9, type: 3}
-  cannnedFoodPref: {fileID: 1699195730776284927, guid: b509470f40432f24f8a64292b0136a1a, type: 3}
-  firstAidPref: {fileID: 5618846455309686120, guid: 3dfcc3d5062e92241be9b4d3f66b2473, type: 3}
-  flashlightPref: {fileID: 6952939476191872512, guid: 1f42e563a3a6ce0418983f655163736c, type: 3}
-  matchboxPref: {fileID: 1131469207829736990, guid: 0a5e5ea30b2b73545a6bc1e3a172971d, type: 3}
-  pillsPref: {fileID: 5127932934145685530, guid: e8fb53431d9afbb45a9e76c3e6812c7a, type: 3}
-  tapePref: {fileID: 1295497083699160092, guid: bdcb52e9dd36b174e8acc5b8c2bf8faa, type: 3}
-  walkiePref: {fileID: 4682066929459366731, guid: e51d7f4d6202e9e4bb76a12a9e4c471f, type: 3}
-  bottlePic: {fileID: 367475323}
-  batteryPic: {fileID: 218047022}
-  cannedFoodPic: {fileID: 208827474}
-  firstAidPic: {fileID: 1006024492}
-  flashlightPic: {fileID: 236479417}
-  matchboxPic: {fileID: 550010808}
-  pillsPic: {fileID: 1297236439}
-  tapePic: {fileID: 1365187305}
-  walkiePic: {fileID: 909018743}
-  bottleQuantityText: {fileID: 1287747643}
-  batteryQuantityText: {fileID: 1359559731}
-  cannedFoodQuantityText: {fileID: 268168311}
-  firstAidQuantityText: {fileID: 2053497317}
-  flashlightQuantityText: {fileID: 1976247373}
-  matchboxQuantityText: {fileID: 647226978}
-  pillsQuantityText: {fileID: 40315674}
-  tapeQuantityText: {fileID: 502141698}
-  walkieQuantityText: {fileID: 1693703598}
-  objects: []
+  counts: 
+  prefabs:
+  - {fileID: 7488818622890738998, guid: 236fb813d115617488f70e63e07951eb, type: 3}
+  - {fileID: 8900423665968717899, guid: c3986f1be816bc94791e1958d51cc4f9, type: 3}
+  - {fileID: 1699195730776284927, guid: b509470f40432f24f8a64292b0136a1a, type: 3}
+  - {fileID: 5618846455309686120, guid: 3dfcc3d5062e92241be9b4d3f66b2473, type: 3}
+  - {fileID: 6952939476191872512, guid: 1f42e563a3a6ce0418983f655163736c, type: 3}
+  - {fileID: 1131469207829736990, guid: 0a5e5ea30b2b73545a6bc1e3a172971d, type: 3}
+  - {fileID: 5127932934145685530, guid: e8fb53431d9afbb45a9e76c3e6812c7a, type: 3}
+  - {fileID: 1295497083699160092, guid: bdcb52e9dd36b174e8acc5b8c2bf8faa, type: 3}
+  - {fileID: 4682066929459366731, guid: e51d7f4d6202e9e4bb76a12a9e4c471f, type: 3}
+  pics:
+  - {fileID: 367475323}
+  - {fileID: 218047022}
+  - {fileID: 208827474}
+  - {fileID: 1006024492}
+  - {fileID: 236479417}
+  - {fileID: 550010808}
+  - {fileID: 1297236439}
+  - {fileID: 1365187305}
+  - {fileID: 909018743}
+  texts:
+  - {fileID: 1287747643}
+  - {fileID: 1359559731}
+  - {fileID: 268168311}
+  - {fileID: 2053497317}
+  - {fileID: 1976247373}
+  - {fileID: 647226978}
+  - {fileID: 40315674}
+  - {fileID: 502141698}
+  - {fileID: 1693703598}
   index: 0
+  dropForce: 2
 --- !u!1 &550010808
 GameObject:
   m_ObjectHideFlags: 0

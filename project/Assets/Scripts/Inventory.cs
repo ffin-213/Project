@@ -61,7 +61,7 @@ public class Inventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha8)) index = 7;
         if (Input.GetKeyDown(KeyCode.Alpha9)) index = 8;
 
-        Debug.Log("Selected slot: " + index);
+        Debug.Log("selected: " + index);
     }
 
     void Drop()
@@ -70,7 +70,7 @@ public class Inventory : MonoBehaviour
 
         if (counts[index] <= 0)
         {
-            Debug.Log("No item to drop");
+            Debug.Log("no item to drop");
             return;
         }
 
@@ -86,7 +86,6 @@ public class Inventory : MonoBehaviour
             rb.AddForce(transform.forward * dropForce, ForceMode.Impulse);
         }
 
-        // Update inventory
         counts[index]--;
         texts[index].text = counts[index].ToString();
 
@@ -95,6 +94,6 @@ public class Inventory : MonoBehaviour
             pics[index].SetActive(false);
         }
 
-        Debug.Log("Dropped item at index: " + index);
+        Debug.Log("dropped item at index: " + index);
     }
 }
