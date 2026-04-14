@@ -783,8 +783,8 @@ MonoBehaviour:
   controller: {fileID: 17022936}
   speed: 3
   mouseSensitivity: 60
-  collectDistance: 3
-  wayPointOnPlayer: {fileID: 73194635}
+  gravity: -9.81
+  groundedYVelocity: -2
 --- !u!136 &17022938
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20043,36 +20043,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d9e130040c967e4d8e2da0823644080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottleCount: 0
-  batteryCount: 0
-  cannnedFoodCount: 0
-  firstAidCount: 0
-  flashlightCount: 0
-  matchboxCount: 0
-  pillsCount: 0
-  tapeCount: 0
-  walkieCount: 0
-  bottlePref: {fileID: 0}
-  batteryPref: {fileID: 0}
-  cannnedFoodPref: {fileID: 0}
-  firstAidPref: {fileID: 0}
-  flashlightPref: {fileID: 0}
-  matchboxPref: {fileID: 0}
-  pillsPref: {fileID: 0}
-  tapePref: {fileID: 0}
-  walkiePref: {fileID: 0}
-  bottlePic: {fileID: 367475323}
-  batteryPic: {fileID: 0}
-  cannedFoodPic: {fileID: 0}
-  firstAidPic: {fileID: 0}
-  flashlightPic: {fileID: 0}
-  matchboxPic: {fileID: 0}
-  pillsPic: {fileID: 0}
-  tapePic: {fileID: 0}
-  walkiePic: {fileID: 0}
-  bottleQuantityText: {fileID: 0}
-  objects: []
+  counts: 00000000
+  prefabs:
+  - {fileID: 7488818622890738998, guid: 236fb813d115617488f70e63e07951eb, type: 3}
+  pics:
+  - {fileID: 367475323}
+  texts:
+  - {fileID: 1287747643}
   index: 0
+  dropForce: 2
 --- !u!1001 &551032262
 PrefabInstance:
   m_ObjectHideFlags: 0

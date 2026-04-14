@@ -6,7 +6,13 @@ public class Collectible : MonoBehaviour
     public Transform player;
 
     public int itemIndex;
+    Player p;
 
+    private void Start()
+    {
+        p = FindAnyObjectByType<Player>();
+        player = p.transform;
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -15,7 +21,7 @@ public class Collectible : MonoBehaviour
 
             if (distance <= collectDistance)
             {
-                Inventory inv = FindFirstObjectByType<Inventory>();
+                Inventory inv = FindAnyObjectByType<Inventory>();
 
                 if (inv != null)
                 {
