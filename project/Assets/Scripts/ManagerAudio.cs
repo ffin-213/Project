@@ -22,7 +22,7 @@ public class ManagerAudio : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("Theme");
+        PlayMusic("Chaos_11(SINGLE LOOP)");
     }
 
     public void PlayMusic(string name)
