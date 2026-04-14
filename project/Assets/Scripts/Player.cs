@@ -1,11 +1,12 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 5f;
+    public float speed = 2f;
+    public float limit = 100f;
     public float mouseSensitivity = 100f;
 
     public float gravity = -9.81f;
@@ -35,6 +36,17 @@ public class Player : MonoBehaviour
 
         yVelocity += gravity * Time.deltaTime;
 
+        if (Input.GetMouseButtonDown(1) && limit > 0)
+        {
+            speed += 3f;
+            limit -= 10f;
+        }
+        if (Input.GetMouseButtonUp(1))
+        {
+            speed = 2f;
+            // 体力一段时间加一点加到100
+        }
+
         Vector3 velocity = move * speed;
         velocity.y = yVelocity;
 
@@ -46,6 +58,12 @@ public class Player : MonoBehaviour
         if (other.CompareTag("L2 Trigger"))
         {
             SceneManager.LoadScene(2);
+        }
+
+        if (other.CompareTag("1-tg"))
+        {
+            Debug.Log("storyline1 begins");
+            // camera + UI
         }
     }
 }
