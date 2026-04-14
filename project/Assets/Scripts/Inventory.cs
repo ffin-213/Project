@@ -20,8 +20,11 @@ public class Inventory : MonoBehaviour
     public int index = 0;
     public float dropForce = 2f;
 
+    Player player;
+
     void Start()
     {
+        player = FindAnyObjectByType<Player>();
         for (int i = 0; i < pics.Count; i++)
         {
             pics[i].SetActive(false);
@@ -41,9 +44,14 @@ public class Inventory : MonoBehaviour
 
     public void Add(int itemIndex)
     {
-        if (itemIndex < 0 || itemIndex >= counts.Count) return;
+        if (itemIndex < 0 || itemIndex >= counts.Count)
+        {
+            Debug.Log("cant add, item index: " + itemIndex + ", counts.Count: " + counts.Count);
+            return;
+        }
 
         counts[itemIndex]++;
+        Debug.Log("counts added");
 
         pics[itemIndex].SetActive(true);
         texts[itemIndex].text = counts[itemIndex].ToString();
@@ -76,7 +84,7 @@ public class Inventory : MonoBehaviour
 
         GameObject obj = Instantiate(
             prefabs[index],
-            transform.position + transform.forward,
+            player.transform.position + transform.forward,
             Quaternion.identity
         );
 
