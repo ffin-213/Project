@@ -905,7 +905,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 66d76dfab87103041a998ee35470bb14, type: 3}
+  m_Resource: {fileID: 8300000, guid: b9dcb6af2ba767b4388104893ee2da1e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1055,11 +1055,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSounds:
-  - {fileID: 8300000, guid: 7a93a05f603868a4fb2c06bb66df6d0d, type: 3}
-  - {fileID: 8300000, guid: fea1429f233f447bd8edbf992d82bd32, type: 3}
+  - {fileID: 8300000, guid: b9dcb6af2ba767b4388104893ee2da1e, type: 3}
+  - {fileID: 8300000, guid: da163e0f47b646d4e9f22c360bed099e, type: 3}
   sfxSounds:
-  - {fileID: 8300000, guid: 6fa88048be821f3479ae000b744de2e4, type: 3}
-  - {fileID: 8300000, guid: 66834f5ac275d94489ab04b49aa3ddec, type: 3}
+  - {fileID: 8300000, guid: 1dcdbc89e9348cd4889e24f629f0df94, type: 3}
+  - {fileID: 8300000, guid: da32a42efe943a44eb47cb3ba82ee5a1, type: 3}
   - {fileID: 8300000, guid: da163e0f47b646d4e9f22c360bed099e, type: 3}
   masterSounds: []
   musicSource: {fileID: 539252746}
@@ -1834,11 +1834,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: b35ecefbddecaba4dbae2f3583fd81b0, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1dcdbc89e9348cd4889e24f629f0df94, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3478,7 +3478,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
