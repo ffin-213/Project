@@ -36,12 +36,12 @@ public class Player : MonoBehaviour
 
         yVelocity += gravity * Time.deltaTime;
 
-        if (Input.GetMouseButtonDown(1) && limit > 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && limit > 0)
         {
             speed += 3f;
             limit -= 10f;
         }
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             speed = 2f;
             // 体力一段时间加一点加到100
