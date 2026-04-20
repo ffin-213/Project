@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 17022937}
   - component: {fileID: 17022936}
   - component: {fileID: 17022935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: player-holder
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2269,7 +2269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 73194635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23504,16 +23504,60 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glass_Door_3
       objectReference: {fileID: 0}
+    - target: {fileID: 3448796409783314151, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09709989
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448796409783314151, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.048
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6769833883718747020, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 640043300}
   m_SourcePrefab: {fileID: 100100000, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
 --- !u!4 &640043297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1136713051790605096, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
   m_PrefabInstance: {fileID: 640043296}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &640043298 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3448796409783314151, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+  m_PrefabInstance: {fileID: 640043296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &640043299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6769833883718747020, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+  m_PrefabInstance: {fileID: 640043296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &640043300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640043299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6996ab5ef4468a4d80c4d0b499c0af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorTransform: {fileID: 640043298}
+  closePos: {x: -0.09709989, y: 0.0001907305, z: -0.04773141}
+  openPos: {x: 0.963, y: 0.0001907305, z: -0.048}
+  duration: 1
+  detectionRadius: 3
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  onDoorTriggered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &641388134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24505,7 +24549,7 @@ GameObject:
   - component: {fileID: 691038695}
   - component: {fileID: 691038694}
   - component: {fileID: 691038693}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36163,6 +36207,10 @@ PrefabInstance:
       propertyPath: doorAudioSource
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6260294286745262529, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7214766888603538905, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
       propertyPath: m_Name
       value: Single_Door_2
@@ -36207,16 +36255,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8311053131544641805, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.114697
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5992101922699736201, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 988862830}
   m_SourcePrefab: {fileID: 100100000, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
 --- !u!4 &988862827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7931407178249089454, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
   m_PrefabInstance: {fileID: 988862826}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &988862828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8311053131544641805, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
+  m_PrefabInstance: {fileID: 988862826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &988862829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5992101922699736201, guid: aa570ccf2b4cb1e448feba4aecbf4d5d, type: 3}
+  m_PrefabInstance: {fileID: 988862826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &988862830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988862829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6996ab5ef4468a4d80c4d0b499c0af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorTransform: {fileID: 988862828}
+  closePos: {x: 0.03260359, y: 1.066133, z: -0.114697}
+  openPos: {x: 0.03260359, y: 1.066133, z: -1.581}
+  duration: 1
+  detectionRadius: 2
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  onDoorTriggered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &995309252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50570,16 +50658,60 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glass_Door_5
       objectReference: {fileID: 0}
+    - target: {fileID: 3448796409783314151, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09709989
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448796409783314151, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.048
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6769833883718747020, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1384878947}
   m_SourcePrefab: {fileID: 100100000, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
 --- !u!4 &1384878944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1136713051790605096, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
   m_PrefabInstance: {fileID: 1384878943}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1384878945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3448796409783314151, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+  m_PrefabInstance: {fileID: 1384878943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1384878946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6769833883718747020, guid: b3535db47e21d31488020a22fed2ba2e, type: 3}
+  m_PrefabInstance: {fileID: 1384878943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1384878947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384878946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6996ab5ef4468a4d80c4d0b499c0af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorTransform: {fileID: 1384878945}
+  closePos: {x: -0.09709989, y: 0.0001907305, z: -0.04773141}
+  openPos: {x: 0.972, y: 0.0001907305, z: -0.048}
+  duration: 1
+  detectionRadius: 3
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  onDoorTriggered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1393101933
 PrefabInstance:
   m_ObjectHideFlags: 0
