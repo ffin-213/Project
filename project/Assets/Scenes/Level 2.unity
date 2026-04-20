@@ -1293,6 +1293,34 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &313786102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8604818515423434598, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+  m_PrefabInstance: {fileID: 1434883740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &313786107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313786102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6996ab5ef4468a4d80c4d0b499c0af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorTransform: {fileID: 0}
+  closePos: {x: 0, y: 0, z: 0}
+  openPos: {x: 0, y: 0, z: 0}
+  duration: 1
+  detectionRadius: 3
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  onDoorTriggered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &322821235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,8 +1990,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorTransform: {fileID: 497826604}
-  closePos: {x: -0.9568, y: -0.0362, z: 0}
-  openPos: {x: 1.02, y: -0.0362, z: 0}
+  closePos: {x: -0.963, y: -0.0362, z: 0}
+  openPos: {x: 0.96, y: -0.0362, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -7666,7 +7694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8610845447379214468, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9568
+      value: -0.963
       objectReference: {fileID: 0}
     - target: {fileID: 8610845447379214468, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7687,6 +7715,14 @@ PrefabInstance:
     - target: {fileID: 8610879137601997928, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613600173260114690, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613600173260114690, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8613610583226122652, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_Convex
@@ -7849,6 +7885,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8604516355249169868, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1135605675}
+    - targetCorrespondingSourceObject: {fileID: 8604818515423434598, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313786107}
     - targetCorrespondingSourceObject: {fileID: 8604644244340555460, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 736443169}
@@ -9983,7 +10022,7 @@ Transform:
   m_GameObject: {fileID: 1724689649}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.16, y: 5.2, z: -1.66}
+  m_LocalPosition: {x: 18.441, y: 1.237, z: -7.64}
   m_LocalScale: {x: 0.3238, y: 0.77247447, z: 0.3667}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -101,6 +101,7 @@ public class AutomaticDoor : MonoBehaviour
     {
         // Check if any colliders on the playerLayer are within detectionRadius
         Collider[] colliders = Physics.OverlapSphere(transform.position, detectionRadius, playerLayer);
+        Debug.Log("player detected");
 
         bool shouldBeOpen = colliders.Length > 0;
 
@@ -120,6 +121,7 @@ public class AutomaticDoor : MonoBehaviour
         }
 
         doorCoroutine = StartCoroutine(TweenCoroutine(isOpen));
+        Debug.Log("door open");
     }
 
     private IEnumerator TweenCoroutine(bool open)
