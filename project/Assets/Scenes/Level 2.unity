@@ -526,6 +526,7 @@ MonoBehaviour:
   doorTransform: {fileID: 125538362}
   closePos: {x: 0.51, y: 1.97, z: -0.05}
   openPos: {x: 1.6, y: 1.97, z: -0.05}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -559,6 +560,7 @@ MonoBehaviour:
   doorTransform: {fileID: 127221910}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: -0.631, y: 1.971434, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -818,6 +820,7 @@ MonoBehaviour:
   doorTransform: {fileID: 167027673}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: -0.619, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -1106,6 +1109,7 @@ MonoBehaviour:
   doorTransform: {fileID: 249562253}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: 1.672, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -1162,6 +1166,7 @@ MonoBehaviour:
   doorTransform: {fileID: 266862436}
   closePos: {x: 0.53, y: 1.971434, z: -0.08199704}
   openPos: {x: 1.667, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -1313,6 +1318,7 @@ MonoBehaviour:
   doorTransform: {fileID: 0}
   closePos: {x: 0, y: 0, z: 0}
   openPos: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -1992,6 +1998,7 @@ MonoBehaviour:
   doorTransform: {fileID: 497826604}
   closePos: {x: -0.963, y: -0.0362, z: 0}
   openPos: {x: 0.96, y: -0.0362, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -2025,6 +2032,7 @@ MonoBehaviour:
   doorTransform: {fileID: 497987619}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: -0.626, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -2081,6 +2089,7 @@ MonoBehaviour:
   doorTransform: {fileID: 527395420}
   closePos: {x: 0.531, y: 1.971434, z: -0.05}
   openPos: {x: 1.615, y: 1.971434, z: -0.05}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -3497,6 +3506,7 @@ MonoBehaviour:
   doorTransform: {fileID: 817662045}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: 1.696, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -3850,6 +3860,7 @@ MonoBehaviour:
   doorTransform: {fileID: 896861708}
   closePos: {x: 0.516, y: 1.979, z: -0.082}
   openPos: {x: 1.633, y: 1.979, z: -0.082}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -3919,6 +3930,7 @@ MonoBehaviour:
   doorTransform: {fileID: 909093205}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: 1.675, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -4142,6 +4154,7 @@ MonoBehaviour:
   doorTransform: {fileID: 953466309}
   closePos: {x: -0.9626, y: -0.0061, z: 0}
   openPos: {x: 1.086, y: -0.0061, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -4522,6 +4535,37 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &1041720383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041720384}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041720384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041720383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000003774895, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.55704147, y: -0.24547291, z: -0.049167722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1109881438}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1047785118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4842,6 +4886,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1089932666}
   closePos: {x: 0.52, y: 1.983, z: -0.08199704}
   openPos: {x: 1.61, y: 1.983, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 5
   playerLayer:
@@ -4896,6 +4941,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!4 &1109881438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8610672302022933124, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+  m_PrefabInstance: {fileID: 1434883740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116986328
 GameObject:
   m_ObjectHideFlags: 0
@@ -5266,12 +5316,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8604725143090690082, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
   m_PrefabInstance: {fileID: 1434883740}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1160173485 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8602425086385970212, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
-  m_PrefabInstance: {fileID: 1434883740}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1160173493
+--- !u!114 &1160173497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5280,20 +5325,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160173484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6996ab5ef4468a4d80c4d0b499c0af9, type: 3}
+  m_Script: {fileID: 11500000, guid: 9443385c7f41e1a46a0526c24c7d2d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorTransform: {fileID: 1160173485}
-  closePos: {x: 0.5659, y: 1.971434, z: -0.08}
-  openPos: {x: -0.565, y: 1.971434, z: -0.08}
-  duration: 1
-  detectionRadius: 3
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  onDoorTriggered:
-    m_PersistentCalls:
-      m_Calls: []
+  openAngle: 90
+  openSpeed: 2
+  isOpen: 0
 --- !u!114 &1180563115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5579,6 +5616,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1246985173}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: 1.753, y: 1.971434, z: -0.08199704}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -6488,6 +6526,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1407292846}
   closePos: {x: 0.543, y: 2.003, z: -0.08}
   openPos: {x: -0.581, y: 2.003, z: -0.08}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -7496,6 +7535,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.52
       objectReference: {fileID: 0}
+    - target: {fileID: 8602339930144251218, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602339930144251218, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602339930144251218, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602339930144251218, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602339930144251218, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8602351998808744046, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5300173
@@ -7534,7 +7593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8602425086385970212, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9714341
+      value: 1.737
       objectReference: {fileID: 0}
     - target: {fileID: 8602425086385970212, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7766,6 +7825,9 @@ PrefabInstance:
     - {fileID: 8604639024287645434, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
     - {fileID: 8605102890116275932, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8610672302022933124, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1041720384}
     - targetCorrespondingSourceObject: {fileID: 8601884794892774658, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: 1
       addedObject: {fileID: 1206107758}
@@ -7919,7 +7981,7 @@ PrefabInstance:
       addedObject: {fileID: 1835048708}
     - targetCorrespondingSourceObject: {fileID: 8604725143090690082, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1160173493}
+      addedObject: {fileID: 1160173497}
     - targetCorrespondingSourceObject: {fileID: 8605145701821956680, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 912078732}
@@ -9054,6 +9116,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1460891944}
   closePos: {x: 0.5300173, y: 1.971434, z: -0.08199704}
   openPos: {x: 1.76, y: 1.97, z: -0.08}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -9354,6 +9417,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1550585628}
   closePos: {x: 0.931, y: 2, z: 0.077}
   openPos: {x: 2.949, y: 2, z: 0.077}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -9419,6 +9483,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1551123395}
   closePos: {x: 0.952, y: 0, z: 0}
   openPos: {x: -2.199, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -10582,6 +10647,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1789280850}
   closePos: {x: -0.949, y: 1.969, z: 0.0884}
   openPos: {x: -2.954, y: 1.969, z: 0.0884}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
@@ -10910,6 +10976,7 @@ MonoBehaviour:
   doorTransform: {fileID: 1835048704}
   closePos: {x: -1.503171, y: 2.147689, z: -1.059694}
   openPos: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
   duration: 1
   detectionRadius: 3
   playerLayer:
