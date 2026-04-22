@@ -57,7 +57,7 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("L2 Trigger"))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
         }
 
         if (other.CompareTag("1-tg"))

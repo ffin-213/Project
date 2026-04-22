@@ -2041,6 +2041,79 @@ MonoBehaviour:
   onDoorTriggered:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &502424915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.34125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.34125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.34125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.210598
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 51.085438
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.9799995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000009735359
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041096761653335912, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5674045591320546770, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_Name
+      value: skybox
+      objectReference: {fileID: 0}
+    - target: {fileID: 6178584745071864839, guid: b97d249eba0e010499129105a890e4ab, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b97d249eba0e010499129105a890e4ab, type: 3}
 --- !u!114 &514327304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7189,7 +7262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8569764628464542552, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8569828979188454200, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_Enabled
@@ -7313,7 +7386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8570133203174157306, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8570141897184352642, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       propertyPath: m_Enabled
@@ -12075,3 +12148,4 @@ SceneRoots:
   - {fileID: 1796942742}
   - {fileID: 1839989866}
   - {fileID: 862291730}
+  - {fileID: 502424915}
