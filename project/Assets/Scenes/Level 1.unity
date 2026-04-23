@@ -66268,7 +66268,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'To call out menu tab by pressing Q.
 
-    Press ESC to return to your gamel.'
+    Press Q again to return to your
+    gamel.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
