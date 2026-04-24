@@ -30926,7 +30926,7 @@ MonoBehaviour:
   - {fileID: 1083769767}
   - {fileID: 1083746100}
   - {fileID: 1680909341}
-  displayTime: 5
+  displayTime: 3
   fadeDuration: 2
 --- !u!1001 &835236494
 PrefabInstance:
@@ -66369,7 +66369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'To call out menu tab by pressing Q.
+  m_text: 'Call out menu tab by pressing Q.
 
     Press Q again to return to your
     game.'
