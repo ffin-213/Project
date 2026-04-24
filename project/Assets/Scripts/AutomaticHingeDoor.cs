@@ -9,7 +9,7 @@ public class AutomaticHingeDoor : MonoBehaviour
     public Transform player;
 
     [Header("Settings")]
-    public float openAngle = 90f;
+    public float openAngle = -90f;
     public float duration = 1f;
     public float detectionRadius = 3f;
     public LayerMask playerLayer;
