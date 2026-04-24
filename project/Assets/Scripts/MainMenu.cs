@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     {
         instructions = FindAnyObjectByType<Instructions>();
         player = FindAnyObjectByType<Player>();
-        pos = player.transform;
+        //pos = player.transform;
     }
     public void PlayGame()
     {
@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            pos = instructions.currentPos;
+            //pos = instructions.currentPos;
             SceneManager.LoadScene(1);
         }
     }
