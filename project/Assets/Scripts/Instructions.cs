@@ -47,7 +47,8 @@ public class Instructions : MonoBehaviour
             yield return new WaitForSeconds(displayTime);
             yield return StartCoroutine(Fade(text, 1, 0, fadeDuration));
 
-            text.gameObject.SetActive(false);
+            //text.gameObject.SetActive(false);
+            Destroy(text.gameObject);
         }
     }
 
