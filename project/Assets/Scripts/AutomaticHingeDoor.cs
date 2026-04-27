@@ -89,7 +89,7 @@ public class AutomaticHingeDoor : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.green;
+        Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
 }
