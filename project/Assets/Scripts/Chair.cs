@@ -8,17 +8,19 @@ public class Chair : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        intText.SetActive(false);
-        standText.SetActive(false);
+        //intText.SetActive(false);
+        //standText.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (interactable)
+        if (interactable == true)
         {
+            Debug.Log("can sit");
             if (Input.GetKeyDown(KeyCode.F))
             {
+                Debug.Log("sit");
                 intText.SetActive(false);
                 standText.SetActive(true);
                 playerSitting.SetActive(true);
@@ -27,8 +29,9 @@ public class Chair : MonoBehaviour
                 interactable = false;
             }
         }
-        if (sitting)
+        else if (sitting == true)
         {
+            Debug.Log("already sitting");
             if(Input.GetKeyDown(KeyCode.F))
             {
                 playerSitting.SetActive(false);
@@ -41,9 +44,9 @@ public class Chair : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("MainCamera"))
+        if (other.CompareTag("Player"))
         {
-            Debug.Log("hi chair");
+            //Debug.Log("hi chair");
             intText.SetActive(true);
             interactable = true;
         }
@@ -51,9 +54,9 @@ public class Chair : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("MainCamera"))
+        if (other.CompareTag("Player"))
         {
-            Debug.Log("bye chair");
+            //Debug.Log("bye chair");
             intText.SetActive(false);
             interactable = false;
         }
