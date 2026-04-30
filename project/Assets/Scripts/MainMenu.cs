@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             //pos = instructions.currentPos;
-            SceneManager.LoadScene(1);
+            //SceneManager.LoadScene(1);
         }
     }
 }

@@ -26,7 +26,7 @@ public class Instructions : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             currentPos = player.transform;
-            SceneManager.LoadScene(2);
+            //SceneManager.LoadScene(2);
         }
     }
 

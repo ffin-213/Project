@@ -37,6 +37,4 @@ public class UIController : MonoBehaviour
     {
         ManagerAudio.Instance.MasterVolume(_masterSlider.value);
     }
-
 }
-
