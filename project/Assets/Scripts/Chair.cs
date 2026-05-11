@@ -4,10 +4,12 @@ public class Chair : MonoBehaviour
 {
     public GameObject playerStanding, playerSitting, intText, standText;
     public bool interactable, sitting;
+    Vector3 p;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        p = playerSitting.transform.position;
         //intText.SetActive(false);
         //standText.SetActive(false);
     }
@@ -15,17 +17,18 @@ public class Chair : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("?");
         if (interactable == true)
         {
             Debug.Log("can sit");
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Debug.Log("sit");
-                intText.SetActive(false);
-                standText.SetActive(true);
-                playerSitting.SetActive(true);
+                //intText.SetActive(false);
+                //standText.SetActive(true);
+                //playerSitting.SetActive(true);
                 sitting = true;
-                playerStanding.SetActive(false);
+                playerStanding.transform.position = p;
                 interactable = false;
             }
         }
@@ -35,7 +38,7 @@ public class Chair : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.F))
             {
                 playerSitting.SetActive(false);
-                standText.SetActive(false);
+                //standText.SetActive(false);
                 playerStanding.SetActive(true);
                 sitting = false;
             }
@@ -47,7 +50,7 @@ public class Chair : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //Debug.Log("hi chair");
-            intText.SetActive(true);
+            //intText.SetActive(true);
             interactable = true;
         }
     }
@@ -57,7 +60,7 @@ public class Chair : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //Debug.Log("bye chair");
-            intText.SetActive(false);
+            //intText.SetActive(false);
             interactable = false;
         }
     }

@@ -25,7 +25,7 @@ public class UIController : MonoBehaviour
 
     public void MusicVolume()
     {
-        ManagerAudio.Instance.MusicVolume(_musicSlider.value);
+        //ManagerAudio.Instance.MusicVolume(_musicSlider.value);
     }
 
     public void SFXVolume()
